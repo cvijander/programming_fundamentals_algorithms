@@ -10,8 +10,10 @@ def is_sorted(itemlist):
         if(itemlist[i]> itemlist[i+1]):
             return False
 
+   # return all(itemlist[i]<= itemlist[i+1] for i in range(len(itemlist)-1))  ista funkcija kao i ova iznad samo u jednom redu 
 
     return True
 
 print(is_sorted(items1))
 print(is_sorted(items2))
+
