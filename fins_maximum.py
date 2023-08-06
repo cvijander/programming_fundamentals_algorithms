@@ -13,8 +13,9 @@ def find_max(items):
   #todo otherwise get the first item and call function 
   #again to operate on the rest of the list 
     op1 = items[0]
+    print(op1)
     op2 = find_max(items[1:])
-
+    print(op2)
   #todo perform the comparison when  we are down to just two
     if op1 >op2:
         return op1
